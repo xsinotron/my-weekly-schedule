@@ -1,0 +1,156 @@
+{
+	"timeinterval": ["19h00", "19h15", "19h30", "19h45", "20h00", "20h15"],
+	"daysname": ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"],
+	"days": [
+        {"name": "lundi"   , "length": 3},
+        {"name": "mardi"   , "length": 1},
+        {"name": "mercredi", "length": 1},
+        {"name": "jeudi"   , "length": 1},
+        {"name": "vendredi", "length": 1},
+        {"name": "samedi"  , "length": 1},
+        {"name": "dimanche", "length": 1}
+    ],
+    "nbintervals": 1,
+    "schedules": [
+        {
+            "timeinterval": "19h00",
+            "days": [
+                {"mon": [
+                    {
+                    "dayID": 0,
+                    "iscontent": true,
+                    "bgcolor": "bg-blue",
+                    "tooltip": "Infos, Supp",
+                    "hashqtip": 0,
+                    "target": "blank",
+                    "url": "http...",
+                    "item": "Taichi",
+                    "start": "19h00",
+                    "end": "19h30",
+                    "rowspan": 2,
+                    "duration": "00h30"
+                    }
+                    ,{"colspan":2}
+                ], "length": 3},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        },
+        {
+            "timeinterval": "19h15",
+            "days": [
+                {"mon": [{
+                    "iscontent": true,
+                    "bgcolor": "bg-yellow",
+                    "tooltip": "Infos, Supp",
+                    "hashqtip": 0,
+                    "target": "blank",
+                    "url": "http...",
+                    "item": "Yoga",
+                    "start": "19h15",
+                    "end": "19h45",
+                    "rowspan": 2,
+                    "duration": "00h30"
+                    },{}]
+                 , "length": 3},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        },
+        {
+            "timeinterval": "19h30",
+            "days": [
+                {"mon": [{
+                        "iscontent": false
+                    },
+                    {
+                    "iscontent": true,
+                    "bgcolor": "bg-silver",
+                    "tooltip": "Infos, Supp",
+                    "hashqtip": 0,
+                    "target": "blank",
+                    "url": "http...",
+                    "item": "Yoga",
+                    "start": "19h30",
+                    "end": "19h45",
+                    "nbintervals": 1,
+                    "colspan": 1,
+                    "rowspan": 1,
+                    "duration": "00h15"
+                    }
+                ], "length": 3},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        },
+        {
+            "timeinterval": "19h45",
+            "days": [
+                {"mon": [{"colspan":3}]},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        },
+        {"timeinterval": "20h00",
+            "days": [
+                {"mon": [{"colspan":3}]},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        },
+        {"timeinterval": "20h15",
+            "days": [
+                {"mon": [{"colspan":3}]},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        },
+        {"timeinterval": "20h30",
+            "days": [
+                {"mon": [{"colspan":3}]},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        },
+        {"timeinterval": "20h45",
+            "days": [
+                {"mon": [{"colspan":3}]},
+                {"tue": []},
+                {"wed": []},
+                {"thu": []},
+                {"fri": []},
+                {"sat": []},
+                {"sun": []}
+            ]
+        }
+    ]
+    
+}

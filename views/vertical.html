@@ -1,0 +1,65 @@
+<div class="ws-schedule table-responsive" id="ws-schedule2">
+    {{#comment}}
+    <div class="verticalcolumn">
+        <table class="verticalheader table table-bordered">
+            <thead>
+                <tr class="topheader">
+                    <th class="rowheader">&nbsp;</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#timeinterval}}
+                <tr class="datarow">
+                    <th>{{.}}</th>
+                </tr>
+                {{/timeinterval}}
+            </tbody>
+        </table>
+    </div>
+    {{/comment}}
+    <table class="table table-bordered table-hover {{tableclass}}">
+        <thead>
+            <tr class="topheader {{headclass}}">
+                <th class="rowheader">&nbsp;</th>
+                {{#days}}
+                <th class="rowheader" colspan="{{length}}">{{name}}</th>
+                {{/days}}
+            </tr>
+        </thead>
+        <tbody>
+            {{#schedules}}
+            <tr class="datarow{{nbintervals}}">
+                <th>{{timeinterval}}</th>
+                {{#days}}
+                {{#mon}}
+                <td class="ws-row-{{rowspan}} ws-item-{{length}} cat-{{#catID}}{{catID}}{{/catID}}{{^catID}}0{{/catID}} {{bgcolor}}" tooltip="{{tooltip}}" data-hasqtip="{{hasqtip}}" {{#rowspan}}rowspan="{{rowspan}}"{{/rowspan}} {{#colspan}}colspan="{{colspan}}"{{/colspan}}>
+                    {{#iscontent}}
+                    <div class="ws-item-title" data-toggle="tooltip" data-placement="right" title="{{start}} - {{end}} duration : {{duration}}">
+                        {{#url}}<a target="{{target}}" href="{{url}}">{{item}}</a>{{/url}}
+                        {{^url}}{{item}}{{/url}}
+                        <p>{{start}} - {{end}}<br>duration : {{duration}}</p>
+                    </div>
+                    {{/iscontent}}
+                </td>
+                {{/mon}}
+                {{^mon}}
+
+                {{#tue}}
+                <td class="ws-row-{{rowspan}} ws-item-{{length}} cat-{{#catID}}{{catID}}{{/catID}}{{^catID}}0{{/catID}} {{bgcolor}}" tooltip="{{tooltip}}" data-hasqtip="{{hasqtip}}" {{#rowspan}}rowspan="{{rowspan}}"{{/rowspan}} {{#colspan}}colspan="{{colspan}}"{{/colspan}}>
+                    {{#iscontent}}
+                    <div class="ws-item-title"  data-toggle="tooltip" data-placement="right" title="{{start}} - {{end}} duration : {{duration}}">
+                        {{#url}}<a target="{{target}}" href="{{url}}">{{item}}</a>{{/url}}
+                        {{^url}}{{item}}{{/url}}
+                        <p>{{start}} - {{end}}<br>duration : {{duration}}</p>
+                    </div>
+                    {{/iscontent}}
+                </td>
+                {{/tue}}
+                {{^tue}}<td {{#colspan}}colspan="{{colspan}}"{{/colspan}}></td>{{/tue}}
+                {{/mon}}
+                {{/days}}
+            </tr>
+            {{/schedules}}
+        </tbody>
+    </table>
+</div>

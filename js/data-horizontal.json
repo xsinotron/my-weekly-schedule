@@ -1,0 +1,191 @@
+{
+	"timeinterval": ["19h00", "19h15", "19h30", "19h45", "20h00", "20h15"],
+	"daysname":     ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"],
+    "nbintervals": 4,
+	"days": [{
+		"dayname": "Lundi",
+        "rowspan": 2,
+		"items": [{
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": true,
+			"style": "background-color:#EEE;",
+			"tooltip": "Infos, Supp",
+			"hashqtip": 0,
+			"target": "blank",
+			"url": "http...",
+			"item": "Yoga",
+			"start": "19h30",
+			"end": "19h45",
+			"nbintervals": 1,
+			"duration": "00h15"
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	},{
+		"dayname": "Lundi",
+        "hidden": true,
+		"items": [{
+			"iscontent": true,
+			"style": "background-color:olive;",
+			"tooltip": "Infos, Supp",
+			"hashqtip": 0,
+			"target": "blank",
+			"url": "http...",
+			"item": "Yoga",
+			"start": "19h00",
+			"end": "19h30",
+			"nbintervals": 2,
+			"duration": "00h30"
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	},{
+		"dayname": "Mardi",
+		"items": [ {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	},{
+		"dayname": "Mercredi",
+		"items": [ {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	},{
+		"dayname": "Jeudi",
+		"items": [ {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	},{
+		"dayname": "Vendredi",
+		"items": [ {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	},{
+		"dayname": "Samedi",
+		"items": [ {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	},{
+		"dayname": "Dimanche",
+		"items": [ {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}, {
+			"iscontent": false,
+			"nbintervals": 1
+		}]
+	}]
+}

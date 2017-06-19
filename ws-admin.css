@@ -1,0 +1,299 @@
+.ws-module-settings-container {
+	position: fixed;
+	top: 52px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	margin-left: 160px;
+	background: #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	z-index: 510;
+}
+.ws-modal-navigation,
+.ws-modal-content-footer {
+	display: block;
+}
+.ws-list-content-footer,
+#ws-save {
+	display: none;
+}
+.ws-module-settings-content-container {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	bottom: 60px;
+	left: 0;
+	overflow: auto;
+	padding: 25px 50px;
+}
+.ws-module-settings-content {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.ws-module-settings-content .ws-module-description p {
+	font-size: 16px;
+}
+.ws-modal-header {
+	display: block;
+	font-size: 20px;
+}
+
+/* Override max width for user security check */
+#ws-module-card-user-security-check .ws-module-settings-content {
+	max-width: 100%;
+	position: relative;
+}
+@media screen and (max-width: 782px) {
+	#ws-module-card-user-security-check  p.search-box {
+		width: 100%;
+	}
+	#ws-user-table {
+		padding-bottom: 100px;
+	}
+}
+
+/* Correct font size of user table nav in user security check */
+#ws-module-card-user-security-check .tablenav {
+	font-size: 12px;
+}
+.ws-module-pro-upsell {
+	opacity: .5;
+}
+
+.ws-pro-upsell {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	text-decoration: none;
+}
+
+@media ( max-width: 960px ) {
+	.ws-module-settings-container {
+		margin-left: 36px;
+	}
+}
+@media ( max-width: 782px ) {
+	.ws-module-settings-container {
+		margin-left: 0px;
+		top: 0px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 100000; /* to get above wp admin bar */
+	}
+	.ws-module-settings-content-container {
+		padding: 15px 30px;
+	}
+}
+
+
+
+/*
+ * Grid Settings Modal
+ */
+body.ws-modal-open {
+	/* This is set to keep the body from scrolling when modal is open */
+	overflow: hidden;
+}
+.ws-modal-background {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.2);
+	z-index: 500;
+	cursor: pointer;
+}
+.ws-modal-navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+.ws-modal-navigation > h2 {
+    float: left;
+    margin: 0.7em 0 0.7em 0.7em;
+}
+.ws-modal-navigation button {
+	width: 40px;
+	height: 39px;
+	float: right;
+	background: #fff;
+	border: none;
+	outline: none;
+	border-left: 1px solid #ddd;
+	font-family: dashicons;
+	font-size: 20px;
+}
+.ws-modal-navigation button:hover,
+.ws-modal-navigation button:focus {
+	background: #efefef;
+	cursor: pointer;
+}
+.ws-modal-navigation button.ws-left:before {
+	content: '\f341';
+}
+.ws-modal-navigation button.ws-right:before {
+	content: '\f345';
+}
+.ws-modal-navigation button.ws-close-modal:before {
+	content: '\f335';
+}
+.ws-modal-content-footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #ddd;
+	padding: 15px;
+	background: #efefef;
+	box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
+}
+.ws-modal-content-footer .align-left{
+	float: left;
+}
+
+.ws-modal-content-footer .align-right{
+	float: right;
+}
+
+/*
+ * Modal Settings
+ */
+.ws-settings-section {
+	border-top: 1px solid #ddd;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.ws-settings-section label {
+	font-weight: bold;
+}
+.ws-settings-section .ws-setting-field {
+	margin-bottom: 1.5em;
+}
+
+
+
+/*
+ * Main content area and module cards
+ */
+.ws-module-section-heading {
+	margin: 0 0 1em 0;
+	overflow: hidden;
+}
+.ws-settings-view-toggle {
+	float: left;
+	margin-right: 1em;
+	padding: .35em 0;
+}
+.ws-settings-view-toggle a,
+.ws-settings-view-toggle a:before {
+	color: #b4b9be;
+	padding: 0 .25em 0 0;
+}
+.ws-settings-view-toggle a:hover,
+.ws-settings-view-toggle a:focus {
+	color: #999;
+	cursor: pointer;
+}
+.ws-settings-view-toggle a.ws-selected {
+	color: #00a0d2;
+}
+.ws-feature-search {
+	float: left;
+}
+.ws-feature-tabs {
+	float: right;
+	margin: 0;
+}
+.ws-module-cards-container {
+	clear: both;
+	box-sizing: border-box;
+}
+.ws-module-cards {
+	text-align: justify;
+	font-size: 0.1px;
+}
+.ws-module-cards:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+.ws-module-card,
+.ws-module-card-filler {
+	font-size: 16px;
+	display: inline-block;
+	width: 100%;
+	max-width: 32%;
+	text-align: left;
+	margin-bottom: 2%;
+	vertical-align: top;
+}
+
+.ws-module-card-content {
+	font-size: 16px;
+	position: relative;
+	background: #fff;
+	border-left: 3px solid #afafaf;
+	box-shadow: 1px 1px 0px rgba(0,0,0,.1);
+	padding: 1em;
+}
+#poststuff .ws-module-card h2 {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+.ws-module-card-content .module-description {
+	display: block;
+}
+.ws-module-type-enabled .ws-module-card-content {
+	background: #f7fcfe;
+	border-left-color: #00a0d2;
+	box-shadow: 1px 1px 0px rgba(0,0,0,.1);
+}
+.ws-module-card-content .module-actions {
+	float: none;
+	margin: 1em 0 0 0;
+}
+.ws-module-type-disabled .ws-settings-module-settings,
+.ws-module-type-disabled .ws-module-settings-save,
+.ws-module-type-disabled .ws-list-content-footer {
+	display: none;
+}
+.ws-module-type-disabled .ws-module-settings-container {
+	padding: 2em;
+}
+.ws-module-settings-content pre{
+	background: #f1f1f1;
+	overflow:scroll;
+	padding: 1em;
+}
+.ws-action-table{
+    text-align: right;
+}
+.ws-admin-page fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.ws-col-left {
+  width: 50%;
+  float: left;
+}
+.ws-col-right {
+  width: 50%;
+  float: right;
+}
+@media ( max-width: 960px ) {
+	.ws-col-left,
+    .ws-col-right {
+      width: 100%;
+      float: left;
+    }
+}
