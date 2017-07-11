@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Weekly Schedule version 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-24 23:04+0100\n"
-"PO-Revision-Date: 2017-03-24 23:04+0100\n"
+"PO-Revision-Date: 2017-06-23 12:43+0200\n"
 "Last-Translator: FxB <fx@fxbenard.com>\n"
 "Language-Team: MondayKing <alecollin@gmail.com>\n"
 "Language: fr_FR\n"
@@ -19,6 +19,12 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
+#. Description of the plugin/theme
+msgid ""
+"A plugin used to create a page with a list of programs for your activity"
+msgstr ""
+"Créer le planning de vos activités"
+
 #: includes/WSTodayScheduleWidget.php:206 tmp/weekly-schedule.php:2869
 msgid "Maximum number of items to display"
 msgstr "Nombre maximum d’éléments à afficher"
@@ -29,9 +35,8 @@ msgid "Weekly Schedule"
 msgstr "Emploi du temps"
 
 # @ amr-ical-events-list
-#: includes/WS_Admin.php:24 includes/WS_Admin.php:25
-#: tmp/weekly-schedule.php:341 tmp/weekly-schedule.php:342
-#: weekly-schedule.php:349 weekly-schedule.php:350
+#: includes/WS_Admin.php:24 includes/WS_Admin.php:25 tmp/weekly-schedule.php:341
+#: tmp/weekly-schedule.php:342 weekly-schedule.php:349 weekly-schedule.php:350
 msgid "General Options"
 msgstr "Options Générales"
 
@@ -87,12 +92,11 @@ msgstr "Afficher dans la cellule après le nom de l’élément"
 msgid "Do not display"
 msgstr "Ne pas afficher"
 
-#: includes/WS_Admin.php:341 includes/WS_Admin.php:445
-#: includes/WS_Admin.php:576 includes/WS_Admin.php:628
-#: tmp/weekly-schedule.php:479 tmp/weekly-schedule.php:583
-#: tmp/weekly-schedule.php:714 tmp/weekly-schedule.php:766
-#: weekly-schedule.php:666 weekly-schedule.php:770 weekly-schedule.php:901
-#: weekly-schedule.php:953
+#: includes/WS_Admin.php:341 includes/WS_Admin.php:445 includes/WS_Admin.php:576
+#: includes/WS_Admin.php:628 tmp/weekly-schedule.php:479
+#: tmp/weekly-schedule.php:583 tmp/weekly-schedule.php:714
+#: tmp/weekly-schedule.php:766 weekly-schedule.php:666 weekly-schedule.php:770
+#: weekly-schedule.php:901 weekly-schedule.php:953
 msgid "You cannot edit the Weekly Schedule for WordPress options."
 msgstr ""
 "Vous ne pouvez pas éditer les options de l’emploi du temps pour Wordpress."
@@ -149,8 +153,8 @@ msgstr "Configuration de l'emploi du temps"
 # @ weekly-schedule
 # @ default
 #: views/admin.php:13 views/admin.php:175 views/admin.php:485
-#: views/admin.php:564 views/admin.php:846 views/modal.php:11
-#: views/modal.php:17 views/new-admin.php:8
+#: views/admin.php:564 views/admin.php:846 views/modal.php:11 views/modal.php:17
+#: views/new-admin.php:8
 msgid "General Settings"
 msgstr "Réglages"
 
@@ -470,7 +474,7 @@ msgstr "Catégorie"
 # @ amr-ical-events-list
 #: views/admin.php:619 views/modal.php:350
 msgid "Description"
-msgstr "Description"
+msgstr "Créer le planning de vos activités"
 
 #: views/admin.php:626 views/modal.php:357
 msgid "Web Address"
@@ -869,11 +873,11 @@ msgstr "Annuler"
 #~ "changing this description to aid your memory of how/why it is configured "
 #~ "the way that it is. "
 #~ msgstr ""
-#~ "Une liste du calendrier par défaut. Celle-ci utilise des tableaux avec "
-#~ "des listes dans les cellules. A besoin normalement que le fichier css "
-#~ "soit activé. Si vous le configurez, je suggère de changer cette "
-#~ "description comme aide mémoire de comment/pourquoi il est configuré de la "
-#~ "façon dont il l'est."
+#~ "Une liste du calendrier par défaut. Celle-ci utilise des tableaux avec des "
+#~ "listes dans les cellules. A besoin normalement que le fichier css soit "
+#~ "activé. Si vous le configurez, je suggère de changer cette description "
+#~ "comme aide mémoire de comment/pourquoi il est configuré de la façon dont "
+#~ "il l'est."
 
 # @ amr-ical-events-list
 #~ msgid "Year"
@@ -938,9 +942,8 @@ msgstr "Annuler"
 # @ amr-ical-events-list
 #~ msgid ""
 #~ "Default setting uses the original table with lists in the cells. It is "
-#~ "grouped by month. If you configure it, I suggest changing this "
-#~ "description to aid your memory of how/why it is configured the way that "
-#~ "it is. "
+#~ "grouped by month. If you configure it, I suggest changing this description "
+#~ "to aid your memory of how/why it is configured the way that it is. "
 #~ msgstr ""
 #~ "Le réglage par défaut utilise la table d'origine avec des listes dans les "
 #~ "cellules. Il est regroupé par mois. Si vous le configurez, je suggère de "
@@ -991,9 +994,9 @@ msgstr "Annuler"
 #~ msgstr ""
 #~ "Le réglage par défaut utilise pour un widget la table d'origine avec des "
 #~ "listes dans les cellules. Parfait pour les thèmes qui ne peuvent pas "
-#~ "utiliser des tableaux dans la barre latérale. Pas de regroupement. Si "
-#~ "vous le configurez, je suggère de changer cette description comme aide "
-#~ "mémoire de comment/pourquoi il est configuré de la façon dont il l'est."
+#~ "utiliser des tableaux dans la barre latérale. Pas de regroupement. Si vous "
+#~ "le configurez, je suggère de changer cette description comme aide mémoire "
+#~ "de comment/pourquoi il est configuré de la façon dont il l'est."
 
 # @ amr-ical-events-list
 #~ msgid "HTML5 Exp 1"
@@ -1004,8 +1007,8 @@ msgstr "Annuler"
 #~ "Table style aiming to use html5 tags, but still within a table structure "
 #~ "to allow columns. One cannot have two levels of grouping with this option "
 #~ "as tbody cannot be nested. If you configure it, I suggest changing this "
-#~ "description to aid your memory of how/why it is configured the way that "
-#~ "it is. "
+#~ "description to aid your memory of how/why it is configured the way that it "
+#~ "is. "
 #~ msgstr ""
 #~ "Style de tableau visant à utiliser les balises HTML5, mais toujours au "
 #~ "sein d'une structure pour permettre des colonnes. On ne peut pas avoir "
@@ -1022,8 +1025,8 @@ msgstr "Annuler"
 #~ msgid ""
 #~ "An HTML5 test option that tries to be leaner. You can have two level of "
 #~ "grouping with this option. If you configure it, I suggest changing this "
-#~ "description to aid your memory of how/why it is configured the way that "
-#~ "it is. "
+#~ "description to aid your memory of how/why it is configured the way that it "
+#~ "is. "
 #~ msgstr ""
 #~ "Une option de test HTML5 qui essaye d'être plus légère. Vous pouvez avoir "
 #~ "deux niveaux de regroupement avec cette option. Si vous le configurez, je "
@@ -1038,9 +1041,9 @@ msgstr "Annuler"
 #~ msgid ""
 #~ "For displaying additional event info on posts created as events. The "
 #~ "summary and description are switched off as these are the post title and "
-#~ "the post content. Calendar properties and groupings are also not "
-#~ "relevant. If you configure it, I suggest changing this description to aid "
-#~ "your memory of how/why it is configured the way that it is. "
+#~ "the post content. Calendar properties and groupings are also not relevant. "
+#~ "If you configure it, I suggest changing this description to aid your "
+#~ "memory of how/why it is configured the way that it is. "
 #~ msgstr ""
 #~ "Pour afficher les informations sur l'événement supplémentaires dans les "
 #~ "articles créés comme des événements. Le résumé et une description sont "
@@ -1055,9 +1058,9 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "The new default setting for calendar widgets. No grouping, No headings. "
-#~ "If you configure it, I suggest changing this description to aid your "
-#~ "memory of how/why it is configured the way that it is. "
+#~ "The new default setting for calendar widgets. No grouping, No headings. If "
+#~ "you configure it, I suggest changing this description to aid your memory "
+#~ "of how/why it is configured the way that it is. "
 #~ msgstr ""
 #~ "Le nouveau paramètre par défaut pour les widgets calendrier. Pas de "
 #~ "regroupement, pas de titres. Si vous le configurez, je suggère de changer "
@@ -1085,13 +1088,13 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "A test option with lots of fields switched on. It has 2 levels of "
-#~ "grouping - this is fine so long as the html in use can be nested. If you "
-#~ "configure it, I suggest changing this description to aid your memory of "
-#~ "how/why it is configured the way that it is. "
+#~ "A test option with lots of fields switched on. It has 2 levels of grouping "
+#~ "- this is fine so long as the html in use can be nested. If you configure "
+#~ "it, I suggest changing this description to aid your memory of how/why it "
+#~ "is configured the way that it is. "
 #~ msgstr ""
-#~ "Une option de test avec plein de champs allumé. Il dispose de 2 niveaux "
-#~ "de regroupement - c'est très bien tant que le html en cours d'utilisation "
+#~ "Une option de test avec plein de champs allumé. Il dispose de 2 niveaux de "
+#~ "regroupement - c'est très bien tant que le html en cours d'utilisation "
 #~ "peuvent être imbriquées. Si vous le configurez, je suggère de changer "
 #~ "cette description comme aide mémoire de comment/pourquoi il est configuré "
 #~ "de la façon dont il est."
@@ -1147,8 +1150,7 @@ msgstr "Annuler"
 # @ amr-ical-events-list
 #~ msgid "Option was not saved before or error deleting option..."
 #~ msgstr ""
-#~ "L'option n'a pas été enregistrée avant ou erreur de suppression "
-#~ "d'option..."
+#~ "L'option n'a pas été enregistrée avant ou erreur de suppression d'option..."
 
 # @ amr-ical-events-list
 #~ msgid " Converting option key to lowercase"
@@ -1206,8 +1208,8 @@ msgstr "Annuler"
 #~ msgid ""
 #~ "The <a href=\"http://au.php.net/manual/en/class.datetime.php\"> DateTime "
 #~ "Class </a> must be enabled on your system for this plugin to work. They "
-#~ "may need to be enabled at compile time.  The class should exist by "
-#~ "default in PHP version 5.2."
+#~ "may need to be enabled at compile time.  The class should exist by default "
+#~ "in PHP version 5.2."
 #~ msgstr ""
 #~ "Le <a href=\"http://au.php.net/manual/en/class.datetime.php\"> DateTime "
 #~ "classe </ a> doit être activé sur votre système pour que ce plugin "
@@ -1348,8 +1350,8 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "<br /><br />An error in the input data may prevent correct display of "
-#~ "this page.  Please advise the administrator as soon as possible."
+#~ "<br /><br />An error in the input data may prevent correct display of this "
+#~ "page.  Please advise the administrator as soon as possible."
 #~ msgstr ""
 #~ "<br /> <br /> Une érreur dans les données d'entrée peut empêcher "
 #~ "l'affichage correct de cette page. S'il vous plaît informer "
@@ -1357,11 +1359,11 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "Your existing saved list types have been converted.  If you wish to "
-#~ "return to the earlier version of the plugin, you will have to reset the "
-#~ "list types and reapply your changes. Or use your DB backup to set the amr-"
-#~ "ical-events-list option back to previous version. You do have regular "
-#~ "backups right? "
+#~ "Your existing saved list types have been converted.  If you wish to return "
+#~ "to the earlier version of the plugin, you will have to reset the list "
+#~ "types and reapply your changes. Or use your DB backup to set the amr-ical-"
+#~ "events-list option back to previous version. You do have regular backups "
+#~ "right? "
 #~ msgstr ""
 #~ "Votre liste existante de types de liste a été converti. Si vous souhaitez "
 #~ "revenir à la version antérieure de l'extension vous devrez réinitialiser "
@@ -1552,8 +1554,8 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "Fields show if \"column\" > 0 and if there is data available in your "
-#~ "event or ics file."
+#~ "Fields show if \"column\" > 0 and if there is data available in your event "
+#~ "or ics file."
 #~ msgstr ""
 #~ "Afficher les champs si \"colonne\"> 0 et s'il n'y a pas des donnée "
 #~ "disponible dans votre événement ou dans le fichier ics."
@@ -1837,8 +1839,8 @@ msgstr "Annuler"
 #~ "The css provided works with the default twenty-ten theme and similar "
 #~ "themes.  Your theme may be different."
 #~ msgstr ""
-#~ "Le css fourni fonctionne avec le thème par défaut twenty-ten et des "
-#~ "thèmes similaires. Votre thème peut être différent."
+#~ "Le css fourni fonctionne avec le thème par défaut twenty-ten et des thèmes "
+#~ "similaires. Votre thème peut être différent."
 
 # @ amr-ical-events-list
 #~ msgid ""
@@ -1858,8 +1860,8 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "This file will not be overwritten when the plugin is upgraded or when "
-#~ "your theme is upgraded. "
+#~ "This file will not be overwritten when the plugin is upgraded or when your "
+#~ "theme is upgraded. "
 #~ msgstr ""
 #~ "Ce fichier ne sera pas écrasé lorsque l'extension est mise à jour ou si "
 #~ "votre thème est mis à jour."
@@ -1944,8 +1946,8 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "Warning - 30 seconds is a long time! Let it use cache rather if things "
-#~ "are slow"
+#~ "Warning - 30 seconds is a long time! Let it use cache rather if things are "
+#~ "slow"
 #~ msgstr ""
 #~ "Avertissement - 30 secondes, c'est long ! Laissez-le plutôt utiliser le "
 #~ "cache si les choses sont lentes"
@@ -1956,11 +1958,11 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "Enter the url of a page with [events] or [largecalendar] in the content "
-#~ "to use for list type previews."
+#~ "Enter the url of a page with [events] or [largecalendar] in the content to "
+#~ "use for list type previews."
 #~ msgstr ""
-#~ "Entrez l'url d'une page avec [events] ou [largecalendar] dans le contenu "
-#~ "à utiliser pour les prévisualisations de type liste."
+#~ "Entrez l'url d'une page avec [events] ou [largecalendar] dans le contenu à "
+#~ "utiliser pour les prévisualisations de type liste."
 
 # @ amr-ical-events-list
 #~ msgid "Click the name of each list type below to configure that list."
@@ -1986,8 +1988,8 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "Add listtype=n in the parameters of the shortcode or widget to use "
-#~ "another list type."
+#~ "Add listtype=n in the parameters of the shortcode or widget to use another "
+#~ "list type."
 #~ msgstr ""
 #~ "Ajouter listtype =n dans les paramètres du shortcode ou du widget pour "
 #~ "utiliser un autre type de liste."
@@ -2021,8 +2023,8 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid ""
-#~ "The whole string must be selected (it should be when you click on the "
-#~ "text box)"
+#~ "The whole string must be selected (it should be when you click on the text "
+#~ "box)"
 #~ msgstr ""
 #~ "La chaîne entière doit être sélectionnée (elle doit l'être quand vous "
 #~ "cliquez sur la zone de texte)"
@@ -2076,17 +2078,16 @@ msgstr "Annuler"
 # @ amr-ical-events-list
 #~ msgid ""
 #~ "Define the formats for the day (eg: Event date, End Date) and time (eg: "
-#~ "Start time, End Time) fields. You can actually use any of these to "
-#~ "display a full Date time string too. Use the Event date for event "
-#~ "instances - the DTSTART field is the first startdate of a recurring event "
-#~ "sequence."
+#~ "Start time, End Time) fields. You can actually use any of these to display "
+#~ "a full Date time string too. Use the Event date for event instances - the "
+#~ "DTSTART field is the first startdate of a recurring event sequence."
 #~ msgstr ""
-#~ "Définir les formats pour la journée (par exemple: Date de l&#39;"
-#~ "événement, à la clôture) et le temps (par exemple: Heure de début, Heure "
-#~ "de fin) des champs. Vous pouvez aussi utiliser tous ces formats pour "
-#~ "afficher une chaîne de temps plein. Utilisez la date de l'événement pour "
-#~ "les instances de l'événement - le champs DTSTART est la date de début "
-#~ "pour une séquence d'événements récurrents."
+#~ "Définir les formats pour la journée (par exemple: Date de l&#39;événement, "
+#~ "à la clôture) et le temps (par exemple: Heure de début, Heure de fin) des "
+#~ "champs. Vous pouvez aussi utiliser tous ces formats pour afficher une "
+#~ "chaîne de temps plein. Utilisez la date de l'événement pour les instances "
+#~ "de l'événement - le champs DTSTART est la date de début pour une séquence "
+#~ "d'événements récurrents."
 
 # @ amr-ical-events-list
 #~ msgid ""
@@ -2119,8 +2120,7 @@ msgstr "Annuler"
 
 # @ amr-ical-events-list
 #~ msgid "Why not do any or all of the following:"
-#~ msgstr ""
-#~ "Pourquoi ne pas faire quelques uns (ou tous) des éléments suivants :"
+#~ msgstr "Pourquoi ne pas faire quelques uns (ou tous) des éléments suivants :"
 
 # @ amr-ical-events-list
 #~ msgid "Link to it so other folks can find out about it."
@@ -2134,8 +2134,8 @@ msgstr "Annuler"
 #~ "or new features, please talk about them in the"
 #~ msgstr ""
 #~ "Si vous avez des problèmes avec cette extension ou de bonnes idées "
-#~ "d'améliorations ou de nouvelles fonctionnalités, s'il vous plaît parlez "
-#~ "en dans le"
+#~ "d'améliorations ou de nouvelles fonctionnalités, s'il vous plaît parlez en "
+#~ "dans le"
 
 # @ amr-ical-events-list
 #~ msgid "Support forums"

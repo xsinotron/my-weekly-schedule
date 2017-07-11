@@ -1,13 +1,13 @@
 <?php
 /*Plugin Name: Weekly Schedule
 Plugin URI: http://ylefebvre.ca/wordpress-plugins/weekly-schedule
-Description: A plugin used to create a page with a list of TV shows
-Version: 3.0.2
-Author: Yannick Lefebvre
-Author URI: http://ylefebvre.ca
-Copyright 2016  Yannick Lefebvre  (email : ylefebvre@gmail.com)
-
-Contributions to version 2.7 by Daniel R. Baleato
+Description: A plugin used to create a page with a list of programs for your activity
+Version: 4.0.0
+Text Domain: weekly-schedule
+Domain Path: /languages/
+Author: Alexis Collin
+Author URI: http://mondayking.com
+Copyright 2017  Alexis Collin  (email : alecollin@gmail.com)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -268,23 +268,23 @@ function ws_create_table_and_settings() {
 
 		for ( $counter = 1; $counter <= $genoptions['numberschedules']; $counter += 1 ) {
 			$colors    = array(
-                'navy'    => 'qtip-navy',    
-                'blue'    => 'qtip-blue',    
-                'aqua'    => 'qtip-aqua',    
-                'teal'    => 'qtip-teal',    
-                'olive'   => 'qtip-olive',   
-                'green'   => 'qtip-green',   
-                'lime'    => 'qtip-lime',    
-                'yellow'  => 'qtip-yellow',  
-                'orange'  => 'qtip-orange',  
-                'red'     => 'qtip-red',     
-                'fuchsia' => 'qtip-fuchsia', 
-                'purple'  => 'qtip-purple',  
-                'maroon'  => 'qtip-maroon',  
-                'white'   => 'qtip-white',   
-                'gray'    => 'qtip-gray',    
-                'silver'  => 'qtip-silver',  
-                'black'   => 'qtip-black',   
+                'navy'    => 'qtip-navy',
+                'blue'    => 'qtip-blue',
+                'aqua'    => 'qtip-aqua',
+                'teal'    => 'qtip-teal',
+                'olive'   => 'qtip-olive',
+                'green'   => 'qtip-green',
+                'lime'    => 'qtip-lime',
+                'yellow'  => 'qtip-yellow',
+                'orange'  => 'qtip-orange',
+                'red'     => 'qtip-red',
+                'fuchsia' => 'qtip-fuchsia',
+                'purple'  => 'qtip-purple',
+                'maroon'  => 'qtip-maroon',
+                'white'   => 'qtip-white',
+                'gray'    => 'qtip-gray',
+                'silver'  => 'qtip-silver',
+                'black'   => 'qtip-black',
             );
 			$positions = array( 'topLeft' => 'top left', 'topMiddle' => 'top center', 'topRight' => 'top right', 'rightTop' => 'right top', 'rightMiddle' => 'right center', 'rightBottom' => 'right bottom', 'bottomLeft' => 'bottom left', 'bottomMiddle' => 'bottom center', 'bottomRight' => 'bottom right', 'leftTop' => 'left top', 'leftMiddle' => 'left center', 'leftBottom' => 'left bottom' );
 
@@ -443,7 +443,7 @@ if ( is_admin() && !class_exists( 'WS_Admin' ) ) {
         }
         function get_select_option_timeformat ($timeformat) {
             $opt = "";
-            $descriptions = array( 
+            $descriptions = array(
                 "24hours"      => __('24 Hours (e.g. 17h30)','ws'),
                 "24hourscolon" => __('24 Hours with Colon (e.g. 17:30)','ws'),
                 "12hours"      => __('12 Hours (e.g. 1:30pm)','ws')
@@ -1496,7 +1496,7 @@ function ws_library(
 					if ( $layout == 'horizontal' || $layout == '' ) {
 						$output .= "colspan='" . $colspan . "'";
 					}
-					
+
 					$output .= '>';
                     // CONTENT
 					$output .= '<div class="';
@@ -1517,9 +1517,9 @@ function ws_library(
                     $itemname = stripslashes( $item->itemname );
 					if ( $item->address != "" ) {
                         $output .= "<a target='$linktarget'href='$target'>$itemname</a>";
-					} else 
+					} else
                         $output .= $itemname;
-                    
+
 					$output .= "</div>";
 
 					if ( $displaydescription == "cell" ) {
